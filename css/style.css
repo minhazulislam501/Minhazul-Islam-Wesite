@@ -1,0 +1,122 @@
+body{
+	background:  linear-gradient(45deg,#27dbe9 ,#e3e67d);
+	background-size: cover;
+}
+.menu-ber{
+	width: 100%;
+	margin: 2% auto;
+	text-align: right;
+}
+.menu-ber ul{
+	margin-right:70px; 
+}
+.menu-ber ul li{
+	margin: 4px auto;
+    padding: 5px 26px;
+	display:inline-block;
+}
+.menu-ber ul li a{
+	color: black;
+	text-decoration: none;
+}
+.text-box{
+	width: 100%;
+    margin:20px auto;
+    padding: 1px 5px;
+    background: url(../img/demo001.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+.text{
+	padding: 15px 10px;
+	text-align: center;
+}
+.text h1{
+	color: tomato
+}
+.text h3{
+	color: blue
+}
+.submit input{
+	margin-top: 20px;
+    background: linear-gradient(45deg,#27dbe9 ,#e3e67d);
+    padding: 5px 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+}
+.img-1{
+	position: fixed;
+	top: 100px;
+	right: -60px;
+	transition: 0.5s ease-in-out; 
+    cursor: pointer;
+}
+.img-2{
+	position: fixed;
+	top: 145px;
+	right: -60px;
+	transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.img-3{
+	position: fixed;
+	top: 205px;
+	right: -60px;
+	transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.img-1:hover{
+	right: 0px;
+	transition: 0.5s ease-in-out;
+}
+.img-2:hover{
+	right: 0px;
+	transition: 0.5s ease-in-out;
+}
+.img-3:hover{
+	right: 0px;
+	transition: 0.5s ease-in-out;
+}
+
+
+
+.table{
+	width: 30%;
+    margin:-15px auto;
+    padding: 31px 50px;
+    text-align: center;
+    background: linear-gradient(45deg,#ff0069 ,#09ff00);
+    border-radius: 8px;
+}
+.table-box{
+	color: black;
+	text-transform: uppercase;
+}
+.form-box,.submit-box{
+	display:inline-block;
+}
+.form-box input{
+	border-radius: 1px;
+	border-collapse: none;
+}
+.submit-box input{
+    padding: 1px 12px;
+    margin: 0px 7px;
+    background: #ff5252;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+}
+.position{
+	position: relative;
+	top: 50px ;
+	left: 40%;
+}
+.position-text{
+	position: absolute;
+	top: 3px;
+	left: 30px;
+	color: red;
+}
